@@ -1,0 +1,67 @@
+*{
+  margin : 0;
+  padding : 0;
+  box-sizing:border-box;
+  font-family: 'Goldman', cursive;
+}
+body{
+  background-color:#C8D8EA;
+}
+header{
+  font-size:1.5rem;
+}
+h2{
+  background-color:#1279EF;
+  color:white;
+}
+header,
+form{
+  display:flex;
+  justify-content:center;
+  justify-items: center;
+  padding-top: 4rem;
+}
+form{
+  min-height: 14vh;
+}
+button{
+  background-color:white;
+  border:1px solid black;
+  padding: 0.5rem;
+  margin: 0.2rem;
+  color: #1279EF;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+button:hover{
+  background-color:#1279EF;
+  border:1px solid black;
+  padding: 0.5rem;
+  margin: 0.2rem;
+  color:  white;
+}
+.container-todolist{
+  border: 1px solid #1279EF;
+  margin: 2rem;
+  padding: 0.5rem;
+  display: flex;
+  justify-content:space-between;
+}
+.todo-item{
+  list-style:none;
+  padding-top:0.5em;
+}
+.container-item{
+  width: 80%;
+}
+.fa-thumbs-up,
+.fa-trash-alt{
+  font-size:0.8em;
+}
+.okdone{
+  background-color: #1279EF;
+  text-decoration: line-through;
+  opacity: 0.2;
+}
+
+
