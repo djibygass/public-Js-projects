@@ -1,0 +1,36 @@
+
+div{
+  width:250px;
+  height:250px;
+  margin:1em;
+}
+
+.div1{
+  border:5px solid rosybrown;
+  position:relative;
+  left:30px;
+}
+.div2{
+  border:5px solid blue;
+  position:fixed;
+  right:50px;
+  top:20px;
+}
+.div3{
+  border:5px solid orange;
+  position: static;
+}
+.div4{
+  border:5px solid green;
+  position: absolute;
+  right:50px;
+  top:300px;
+  z-index:-1;
+}
+
+.div5{
+  border:5px solid rosybrown;
+  position:relative;
+  right:30px;
+
+}

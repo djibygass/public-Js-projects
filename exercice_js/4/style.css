@@ -1,0 +1,17 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.div{
+  display:flex;
+  padding:5em;
+  justify-content:center;
+  border:1px solid #ff6655;
+  border-radius:5%;
+  background-color: grey;
+  flex-direction: column;
+}
+.texte{
+  font-size:25px;
+}
